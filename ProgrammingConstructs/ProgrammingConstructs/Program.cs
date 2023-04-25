@@ -6,6 +6,7 @@
         {
             Equality obj = new Equality();
             obj.CompareNo();
+            Console.ReadKey();
         }
     }
 }
