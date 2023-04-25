@@ -8,21 +8,40 @@ namespace ProgrammingConstructs
 {
     public class Equality
     {
-             public int Age;
-        public void CheckEligibility()
+        int num_One, num_Two, num_Three;
+
+        public int num_one, num_two, num_three;
+        public void CompareNumber()
         {
-            Console.WriteLine("Enter Candidate Age");
-            Age=Convert.ToInt32(Console.ReadLine());
-            if (Age >= 18)
+            Console.WriteLine("Enter 1st number: ");
+            num_one = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter 2nd number: ");
+            num_two = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter 3rd number: ");
+            num_three = Convert.ToInt32(Console.ReadLine());
+            if (num_one > num_two)
             {
-                Console.WriteLine("You are eligible to voting");
+                if (num_one > num_three)
+                {
+                    Console.Write("Number first is the greatest");
+                }
+                else
+                {
+                    Console.Write("Number third is the greatest");
+                }
+            }
+            else if (num_two > num_three)
+            {
+                Console.Write("Number Second is the greatest");
             }
             else
             {
-                Console.WriteLine("You are not eligible to voting");
+                Console.Write("Number third is the greatest");
             }
 
         }
+
     }
-   
 }
+
+
