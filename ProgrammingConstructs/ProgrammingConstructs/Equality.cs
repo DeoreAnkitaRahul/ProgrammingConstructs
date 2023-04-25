@@ -8,39 +8,39 @@ namespace ProgrammingConstructs
 {
     public class Equality
     {
-        int num_One, num_Two, num_Three;
-
-        public int num_one, num_two, num_three;
-        public void CompareNumber()
-        {
-            Console.WriteLine("Enter 1st number: ");
-            num_one = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter 2nd number: ");
-            num_two = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter 3rd number: ");
-            num_three = Convert.ToInt32(Console.ReadLine());
-            if (num_one > num_two)
+             public int num;
+            public void WeekDayNumber()
             {
-                if (num_one > num_three)
+                Console.WriteLine("Enter the number");
+                num = Convert.ToInt32(Console.ReadLine());
+                switch (num)
                 {
-                    Console.Write("Number first is the greatest");
+                    case 1:
+                        Console.WriteLine("SUNDAY");
+                        break;
+                    case 2:
+                        Console.WriteLine("MONDAY");
+                        break;
+                    case 3:
+                        Console.WriteLine("TUESDAY");
+                        break;
+                    case 4:
+                        Console.WriteLine("WEDNESDAY");
+                        break;
+                    case 5:
+                        Console.WriteLine("THURSDAY");
+                        break;
+                    case 6:
+                        Console.WriteLine("FRIDAY");
+                        break;
+                    case 7:
+                        Console.WriteLine("SATURDAY");
+                        break;
                 }
-                else
-                {
-                    Console.Write("Number third is the greatest");
-                }
-            }
-            else if (num_two > num_three)
-            {
-                Console.Write("Number Second is the greatest");
-            }
-            else
-            {
-                Console.Write("Number third is the greatest");
+
             }
 
-        }
-
+        
     }
 }
 
