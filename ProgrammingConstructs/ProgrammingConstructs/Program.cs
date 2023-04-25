@@ -5,7 +5,7 @@
         public static void Main(string[] args)
         {
             Equality obj = new Equality();
-            obj.CompareNo();
+            obj.CheckEligibility();
             Console.ReadKey();
         }
     }
