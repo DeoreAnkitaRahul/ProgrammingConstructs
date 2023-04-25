@@ -8,34 +8,32 @@ namespace ProgrammingConstructs
 {
     public class Equality
     {
-             public int num;
-            public void WeekDayNumber()
+             public int num_One,num_Two,num_Three;
+            public void Operations()
             {
                 Console.WriteLine("Enter the number");
-                num = Convert.ToInt32(Console.ReadLine());
-                switch (num)
+                num_One = Convert.ToInt32(Console.ReadLine());
+                 num_Two = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("1 for Addition");
+            Console.WriteLine("2 for Substraction");
+            Console.WriteLine("3 For Multiplication");
+            Console.WriteLine("4 for Division");
+            num_Three = Convert.ToInt32(Console.ReadLine());
+            switch (num_Three)
                 {
                     case 1:
-                        Console.WriteLine("SUNDAY");
+                        Console.WriteLine($"Addition Of Two Numbers {num_One+num_Two}");
                         break;
                     case 2:
-                        Console.WriteLine("MONDAY");
+                        Console.WriteLine($"Substraction Of Two Numbers {num_One-num_Two}");
                         break;
                     case 3:
-                        Console.WriteLine("TUESDAY");
+                    Console.WriteLine($"Multipliaction Of Two Numbers {num_One*num_Two}");
                         break;
                     case 4:
-                        Console.WriteLine("WEDNESDAY");
+                        Console.WriteLine($"Division Of Two Numbers {num_One/num_Two}");
                         break;
-                    case 5:
-                        Console.WriteLine("THURSDAY");
-                        break;
-                    case 6:
-                        Console.WriteLine("FRIDAY");
-                        break;
-                    case 7:
-                        Console.WriteLine("SATURDAY");
-                        break;
+                   
                 }
 
             }

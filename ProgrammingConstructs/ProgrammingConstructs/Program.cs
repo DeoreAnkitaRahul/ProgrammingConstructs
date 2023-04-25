@@ -5,7 +5,7 @@
         public static void Main(string[] args)
         {
             Equality obj = new Equality();
-            obj.WeekDayNumber();
+            obj.Operations();
             Console.ReadKey();
         }
     }
