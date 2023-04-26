@@ -5,7 +5,7 @@
         public static void Main(string[] args)
         {
             Equality obj = new Equality();
-            obj.Operations();
+            obj.PowerOfTwo();
             Console.ReadKey();
         }
     }
