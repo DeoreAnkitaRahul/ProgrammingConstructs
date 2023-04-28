@@ -8,21 +8,18 @@ namespace ProgrammingConstructs
 {
     public class Equality
     {
-        public void ReverseStringMethod()
+        public void NaturalNumber()
         {
-            Console.Write("Enter a word: ");
-            string word = Console.ReadLine();
-            string reversedWord = "";
-            int i = word.Length - 1;
-            while (i >= 0)
-            {
-                reversedWord += word[i];
-                i--;
-            }
-            Console.WriteLine("The reversed word is: " + reversedWord);
+            Console.WriteLine("Enter the Number upto 5");
+            int sum = 0;
+            int value = int.Parse(Console.ReadLine());
+            for (int p = 1; p <= value; p++)
+                sum = sum + p;
+            Console.WriteLine($"Sum of Natural Number : {sum}");
         }
     }
 }
+
 
 
        

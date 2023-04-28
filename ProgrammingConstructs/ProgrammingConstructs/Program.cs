@@ -5,7 +5,7 @@
         public static void Main(string[] args)
         {
           Equality obj= new  Equality();
-           obj.ReverseStringMethod();
+           obj.NaturalNumber();
             Console.ReadKey();
             
         }
