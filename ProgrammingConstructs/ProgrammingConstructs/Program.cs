@@ -4,8 +4,9 @@
     {
         public static void Main(string[] args)
         {
-            Equality obj = new Equality();
-            obj.Square();
+          Equality factorialOfNumber = new  Equality();
+            factorialOfNumber. Factorial();
+            Console.ReadKey();
             Console.ReadKey();
         }
     }

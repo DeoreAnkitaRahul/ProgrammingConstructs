@@ -8,26 +8,23 @@ namespace ProgrammingConstructs
 {
     public class Equality
     {
-
-        public int n, sum = 0;
-        public void Square()
-        {
-            Console.WriteLine("Input the number of terms : ");
-            n = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("The squares upto {0} terms are :", n);
-            for (int i = 1; i <= n; i++)
+             public int i, num, fact = 1;
+            public void Factorial()
             {
-                Console.Write("{0}  ", i * i);
-                sum += i * i;
+                Console.Write("Enter a number for which you want factorial: ");
+                num = Convert.ToInt32(Console.ReadLine());
+                for (i = 1; i <= num; i++)
+                {
+                    fact = fact * i;
+                }
+                Console.WriteLine(num + "! is : " + fact);
             }
-            Console.WriteLine("The Sum of Squares of numbers upto {0} terms = {1}", n, sum);
-       
-       
 
-        }    
 
-        
+      
+
     }
 }
+
 
 
