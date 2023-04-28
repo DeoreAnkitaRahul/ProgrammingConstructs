@@ -4,10 +4,10 @@
     {
         public static void Main(string[] args)
         {
-          Equality factorialOfNumber = new  Equality();
-            factorialOfNumber.ReverseStringMethod();
+          Equality obj= new  Equality();
+           obj.ReverseStringMethod();
             Console.ReadKey();
-            Console.ReadKey();
+            
         }
     }
 }

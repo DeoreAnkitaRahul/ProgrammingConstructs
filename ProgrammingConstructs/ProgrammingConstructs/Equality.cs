@@ -22,11 +22,12 @@ namespace ProgrammingConstructs
             Console.WriteLine("The reversed word is: " + reversedWord);
         }
     }
+}
 
 
        
     
-}
+
 
 
 
