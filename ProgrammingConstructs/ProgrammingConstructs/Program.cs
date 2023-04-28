@@ -5,7 +5,7 @@
         public static void Main(string[] args)
         {
           Equality factorialOfNumber = new  Equality();
-            factorialOfNumber. Factorial();
+            factorialOfNumber.ReverseStringMethod();
             Console.ReadKey();
             Console.ReadKey();
         }

@@ -8,22 +8,24 @@ namespace ProgrammingConstructs
 {
     public class Equality
     {
-             public int i, num, fact = 1;
-            public void Factorial()
+        public void ReverseStringMethod()
+        {
+            Console.Write("Enter a word: ");
+            string word = Console.ReadLine();
+            string reversedWord = "";
+            int i = word.Length - 1;
+            while (i >= 0)
             {
-                Console.Write("Enter a number for which you want factorial: ");
-                num = Convert.ToInt32(Console.ReadLine());
-                for (i = 1; i <= num; i++)
-                {
-                    fact = fact * i;
-                }
-                Console.WriteLine(num + "! is : " + fact);
+                reversedWord += word[i];
+                i--;
             }
-
-
-      
-
+            Console.WriteLine("The reversed word is: " + reversedWord);
+        }
     }
+
+
+       
+    
 }
 
 
